@@ -400,7 +400,7 @@ function redirect($page , $get = ''){
                   
             
             else{
-              include 'home.html';
+              include 'home.php';
             }
     
     ?>
