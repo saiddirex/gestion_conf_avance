@@ -4,7 +4,7 @@
 session_start();
 
 //connexion à la base de données
-$con = mysqli_connect("localhost","said","saiddirex","gestion_conference");             
+$con = mysqli_connect("localhost","root","","gestion_conference");             
 
 //si la connexion échoue quitter l'exécution
 
@@ -400,7 +400,7 @@ function redirect($page , $get = ''){
                   
             
             else{
-              include 'home.php';
+              include 'home.html';
             }
     
     ?>
