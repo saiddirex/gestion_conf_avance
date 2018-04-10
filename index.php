@@ -1,5 +1,7 @@
 <?php
-
+//donnees de connexion
+//compte admin  login=administrateur  mdp=admin1234
+//compte utilisateur   login=utilisateur    mdp=user1234
 //ouverture d'une session
 session_start();
 
@@ -22,9 +24,6 @@ $res = [];
 while ($tmp = mysqli_fetch_assoc($req)) {
   $res[]=$tmp;
 }
-
-
-
 
 
 
